@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled,{css} from 'styled-components'
 
 const Login = () => {
@@ -201,13 +201,7 @@ const Login = () => {
     
     `
 
-    const [showPassword,setShowPassword] = useState(false)
-    const [password,setPassword] = useState('')
-
-    const togglePasswordVisibility = () => {
-        setShowPassword(!showPassword);
-      }
-
+    
    
 
   return (
@@ -223,13 +217,13 @@ const Login = () => {
         <InputTag placeholder='Enter Login Id'/>
         </ElementWrapper>
         
-        <div className='password'>
+       
         <ElementWrapper>
         <SpanTag>Password</SpanTag>
-        <InputTag  type={showPassword ? 'text' : 'password'} value={password} onChange={(e)=>setPassword(e.target.value)}  placeholder='Enter Password'/>
-        <i class="fa-regular fa-eye logo" onClick={togglePasswordVisibility}></i>
+        <InputTag type='password'  placeholder='Enter Password'/>
+        
         </ElementWrapper>
-        </div>
+        
         
 
         <ChangePasswordWrapper>

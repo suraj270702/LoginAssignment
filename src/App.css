@@ -21,26 +21,3 @@ img{
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
-    
-    .logo{
-        position: absolute;
-        top: 43px;
-        left: 280px;
-        cursor: pointer;
-    }
-    
-    
-  }
-
-  @media (max-width: 1024px) {
-    
-    .logo{
-        position: absolute;
-        top: 43px;
-        left: 570px;
-        cursor: pointer;
-    }
-    
-    
-  }
