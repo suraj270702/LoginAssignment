@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    mix-blend-mode: multiply;
+    
+}
+
+.password{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 43px;
+    left: 700px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    
+    .logo{
+        position: absolute;
+        top: 43px;
+        left: 280px;
+        cursor: pointer;
+    }
+    
+    
+  }
+
+  @media (max-width: 1024px) {
+    
+    .logo{
+        position: absolute;
+        top: 43px;
+        left: 570px;
+        cursor: pointer;
+    }
+    
+    
+  }
